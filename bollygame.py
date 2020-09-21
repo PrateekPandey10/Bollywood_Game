@@ -4,6 +4,8 @@ global name
 print('lets play Bollywood \n')
 
 quest= getpass.getpass('Enter the question keyword: \n')
+hint= input("\n ENTER A HINT FOR THE PLAYER: \n")
+print('\n The Hint is:' hint '\n')
 moviename= str(quest)
 listword= list(quest.lower())
 #take hidden input from user and store the value in a list
